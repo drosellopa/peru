@@ -1,0 +1,47 @@
+@import "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap";
+*, :after, :before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark1: #222;
+  --dark2: #777;
+  --main1: #f8bf2c;
+  --main2: #f2b410;
+  --light1: #fff;
+  --light2: #ddd;
+}
+
+body {
+  font-optical-sizing: auto;
+  font-family: Lora, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+nav a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.comic-title {
+  font-family: Tangerine, cursive;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  color: var(--dark2);
+}
+/*# sourceMappingURL=index.c92073ef.css.map */
